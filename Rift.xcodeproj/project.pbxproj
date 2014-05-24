@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F14DEC0F19302DEE00908FA7 /* Rift.cp in Sources */ = {isa = PBXBuildFile; fileRef = F14DEC0E19302DEE00908FA7 /* Rift.cp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F14DEC0519302DEE00908FA7 /* Rift.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Rift.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14DEC0919302DEE00908FA7 /* Rift-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rift-Prefix.pch"; sourceTree = "<group>"; };
+		F14DEC0A19302DEE00908FA7 /* RiftProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RiftProj.xcconfig; sourceTree = "<group>"; };
+		F14DEC0B19302DEE00908FA7 /* RiftTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RiftTarget.xcconfig; sourceTree = "<group>"; };
+		F14DEC0C19302DEE00908FA7 /* Rift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rift.h; sourceTree = "<group>"; };
+		F14DEC0D19302DEE00908FA7 /* RiftPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiftPriv.h; sourceTree = "<group>"; };
+		F14DEC0E19302DEE00908FA7 /* Rift.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rift.cp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F14DEC0219302DED00908FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F14DEBFC19302DED00908FA7 = {
+			isa = PBXGroup;
+			children = (
+				F14DEC0719302DEE00908FA7 /* Rift */,
+				F14DEC0619302DEE00908FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F14DEC0619302DEE00908FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14DEC0519302DEE00908FA7 /* Rift.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F14DEC0719302DEE00908FA7 /* Rift */ = {
+			isa = PBXGroup;
+			children = (
+				F14DEC0A19302DEE00908FA7 /* RiftProj.xcconfig */,
+				F14DEC0B19302DEE00908FA7 /* RiftTarget.xcconfig */,
+				F14DEC0C19302DEE00908FA7 /* Rift.h */,
+				F14DEC0D19302DEE00908FA7 /* RiftPriv.h */,
+				F14DEC0E19302DEE00908FA7 /* Rift.cp */,
+				F14DEC0819302DEE00908FA7 /* Supporting Files */,
+			);
+			path = Rift;
+			sourceTree = "<group>";
+		};
+		F14DEC0819302DEE00908FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F14DEC0919302DEE00908FA7 /* Rift-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F14DEC0319302DED00908FA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F14DEC0419302DED00908FA7 /* Rift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14DEC1219302DEE00908FA7 /* Build configuration list for PBXNativeTarget "Rift" */;
+			buildPhases = (
+				F14DEC0119302DED00908FA7 /* Sources */,
+				F14DEC0219302DED00908FA7 /* Frameworks */,
+				F14DEC0319302DED00908FA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rift;
+			productName = Rift;
+			productReference = F14DEC0519302DEE00908FA7 /* Rift.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14DEBFD19302DED00908FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ashutosh Adkar";
+			};
+			buildConfigurationList = F14DEC0019302DED00908FA7 /* Build configuration list for PBXProject "Rift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F14DEBFC19302DED00908FA7;
+			productRefGroup = F14DEC0619302DEE00908FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F14DEC0419302DED00908FA7 /* Rift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F14DEC0119302DED00908FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14DEC0F19302DEE00908FA7 /* Rift.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F14DEC1019302DEE00908FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F14DEC1119302DEE00908FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F14DEC1319302DEE00908FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F14DEC1419302DEE00908FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F14DEC0019302DED00908FA7 /* Build configuration list for PBXProject "Rift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14DEC1019302DEE00908FA7 /* Debug */,
+				F14DEC1119302DEE00908FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14DEC1219302DEE00908FA7 /* Build configuration list for PBXNativeTarget "Rift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14DEC1319302DEE00908FA7 /* Debug */,
+				F14DEC1419302DEE00908FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14DEBFD19302DED00908FA7 /* Project object */;
+}
